@@ -1,4 +1,4 @@
-# countries-wiki
+# countries wiki
 
 ## Project setup
 ```
