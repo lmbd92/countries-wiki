@@ -1,0 +1,28 @@
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.country-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.country-item:hover {
+  transform: scale(1.05);
+}
+
+.country-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.country-details {
+  text-align: center;
+}
