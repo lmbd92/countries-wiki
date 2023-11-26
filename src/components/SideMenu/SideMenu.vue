@@ -22,9 +22,7 @@ export default {
   name: 'SideMenu',
   mixins: [SideMenuLogic],
 };
-
 </script>
-
 
 <style scoped>
 @import '../SideMenu/SideMenuStyles.css';

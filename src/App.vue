@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <SideMenu></SideMenu>
+    <SideMenu />
+    <router-view />
   </div>
 </template>
 
@@ -15,6 +16,11 @@ export default {
 </script>
 
 <style>
+#app{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
 body{
   padding: 0;
   margin: 0;
